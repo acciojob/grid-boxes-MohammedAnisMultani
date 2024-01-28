@@ -9,7 +9,7 @@
    gap: 5px;
    
     display: grid;
-    width: q00vw;
+    width: 100vw;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 100px 100px 100px 100px 100px;
     grid-template-areas: 
