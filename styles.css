@@ -4,14 +4,14 @@
     padding: 0;
 }
 
-.main-div
+#grid
 {
-   gap: 5px;
+   grid-gap: 10px 10px;
    
     display: grid;
-    width: 100vw;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 100px 100px 100px 100px 100px;
+   
+    grid-template-columns: 242.5px 242.5px 242.5px 242.5px;
+    grid-template-rows: 124px 124px 124px 124px 124px;
     grid-template-areas: 
     "a a a a"
     "b c d d"
@@ -68,4 +68,5 @@
 {
     grid-area: j;
 }
+
 
