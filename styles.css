@@ -1,1 +1,71 @@
-/*  your css code here. If applicable */
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.main-div
+{
+   gap: 5px;
+   
+    display: grid;
+    width: q00vw;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 100px 100px 100px;
+    grid-template-areas: 
+    "a a a a"
+    "b c d d"
+    "b e e f"
+    "b g h i"
+    "b j j j";
+}
+
+.item
+{
+    background-color: green;
+    color: white;
+    font-size: xx-large;
+    padding: 5px;
+}
+
+.no1
+{
+    grid-area: a;
+}
+.no2
+{
+    grid-area: b;
+}
+.no3
+{
+    grid-area: c;
+}
+.no4
+{
+    grid-area: d;
+}
+.no5
+{
+    grid-area: e;
+}
+.no6
+{
+    grid-area: f;
+}
+.no7
+{
+    grid-area: g;
+}
+.no8
+{
+    grid-area: h;
+}
+.no9
+{
+    grid-area: i;
+}
+.no10
+{
+    grid-area: j;
+}
+
