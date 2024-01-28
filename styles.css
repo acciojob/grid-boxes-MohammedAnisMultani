@@ -12,12 +12,7 @@
    
     grid-template-columns: 242.5px 242.5px 242.5px 242.5px;
     grid-template-rows: 124px 124px 124px 124px 124px;
-    grid-template-areas: 
-    "a a a a"
-    "b c d d"
-    "b e e f"
-    "b g h i"
-    "b j j j";
+  
 }
 
 .item
@@ -30,43 +25,48 @@
 
 .no1
 {
-    grid-area: a;
+   grid-column: 1/5;
 }
 .no2
 {
-    grid-area: b;
+   grid-column-start: 1;
+   grid-row: 2/6;
 }
 .no3
 {
-    grid-area: c;
+    grid-column: 2;
+    grid-row: 2;
+   
 }
 .no4
 {
-    grid-area: d;
+    grid-column: 3/5;
 }
 .no5
 {
-    grid-area: e;
+    grid-column: 2/4;
+    grid-row: 3;
 }
 .no6
 {
-    grid-area: f;
+    grid-row: 3;
 }
 .no7
 {
-    grid-area: g;
+    grid-row: 4;
 }
 .no8
 {
-    grid-area: h;
+    grid-row: 4;
 }
 .no9
 {
-    grid-area: i;
+    grid-row: 4;
 }
 .no10
 {
-    grid-area: j;
+    grid-row: 5;
+    grid-column: 2/5;
 }
 
 
